@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-    title: 'Dribble',
+    title: 'Flexible',
     description: 'NextJS Project',
 
 }

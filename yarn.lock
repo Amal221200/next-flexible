@@ -46,6 +46,31 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.43.0.tgz#559ca3d9ddbd6bf907ad524320a0d14b85586af0"
   integrity sha512-s2UHCoiXfxMvmfzqoN+vrQ84ahUSYde9qNO1MdxmoEhyHWsfmwOpFlwYV+ePJEVc7gFnATGUi376WowX1N7tFg==
 
+"@grafbase/cli-aarch64-apple-darwin@^0.25.1":
+  version "0.25.1"
+  resolved "https://registry.yarnpkg.com/@grafbase/cli-aarch64-apple-darwin/-/cli-aarch64-apple-darwin-0.25.1.tgz#ac5e7f986592d88cf19efa647dd7afbaa9edb60a"
+  integrity sha512-m/7mnjawJJ+D2UhJgzRnC0HxCYYlPS3RYLtxZ36FsmuHRlIhyZJLJvDyWH37uPbwrt3uJP1kRA/G4OeHQOxpKA==
+
+"@grafbase/cli-aarch64-unknown-linux-musl@^0.25.1":
+  version "0.25.1"
+  resolved "https://registry.yarnpkg.com/@grafbase/cli-aarch64-unknown-linux-musl/-/cli-aarch64-unknown-linux-musl-0.25.1.tgz#58520be6d36980a59bd2f24fc7c657f3bae374b8"
+  integrity sha512-Fz+LsCzy4Uhcz/s6KkWhHLFD9bc4rCq7ATY0SVOurNbvwvQNOA7lZZgc/VuOb/VPKfcIvpAHNL1K/8/o3NqR5A==
+
+"@grafbase/cli-x86_64-apple-darwin@^0.25.1":
+  version "0.25.1"
+  resolved "https://registry.yarnpkg.com/@grafbase/cli-x86_64-apple-darwin/-/cli-x86_64-apple-darwin-0.25.1.tgz#5d4d983aaeeb3e2c1cbefe6f7ca310b60bd94499"
+  integrity sha512-t0JQsDVH6uXnUBGevsVvK3++lVYX6xEuWm+BZq1MRDYx9wj+DZOMyGQsG8fTPp117k2Oiv6qTf4SBduVuxRUmw==
+
+"@grafbase/cli-x86_64-pc-windows-msvc@^0.25.1":
+  version "0.25.1"
+  resolved "https://registry.yarnpkg.com/@grafbase/cli-x86_64-pc-windows-msvc/-/cli-x86_64-pc-windows-msvc-0.25.1.tgz#bdb96a160c947001ede3c8add2eaf1172855e7f2"
+  integrity sha512-wC5XcYr8CZ65v4VYXKdbGXA3RtBP1ej+KpPo+oR4Cs9o1J0EywDJMpyIKJFkAf/Ri3qDMYiQxeFYPshzEp+QZw==
+
+"@grafbase/cli-x86_64-unknown-linux-musl@^0.25.1":
+  version "0.25.1"
+  resolved "https://registry.yarnpkg.com/@grafbase/cli-x86_64-unknown-linux-musl/-/cli-x86_64-unknown-linux-musl-0.25.1.tgz#df8e420ca826007b5c3f9be373c754b9dcd596e9"
+  integrity sha512-Lhvv6mjBa4AzZaOkDC4C8IyY4WSF11SfoLS8K8lf6pFYn4jIhdyw7uFzj9jHAEvIuFlwCVHwqBUMmzaht+zZmw==
+
 "@grafbase/sdk@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@grafbase/sdk/-/sdk-0.1.0.tgz#ebd8cd4a88b0a690b72c7c6a0a986192a5c3ab97"
@@ -1443,6 +1468,17 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4:
   version "4.2.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
+
+grafbase@^0.25.1:
+  version "0.25.1"
+  resolved "https://registry.yarnpkg.com/grafbase/-/grafbase-0.25.1.tgz#2c7c99288a8307ad5e5bee7118c3751f0f6b75c1"
+  integrity sha512-nms3m8uJJzsBIFFhIlC2PyrVP954SIBKp+RnoDl9eJga32Se5AVaa6KSVI/ZRncqW2AYxDL/texxIB3GcpRqnQ==
+  optionalDependencies:
+    "@grafbase/cli-aarch64-apple-darwin" "^0.25.1"
+    "@grafbase/cli-aarch64-unknown-linux-musl" "^0.25.1"
+    "@grafbase/cli-x86_64-apple-darwin" "^0.25.1"
+    "@grafbase/cli-x86_64-pc-windows-msvc" "^0.25.1"
+    "@grafbase/cli-x86_64-unknown-linux-musl" "^0.25.1"
 
 graphemer@^1.4.0:
   version "1.4.0"
